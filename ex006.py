@@ -1,2 +1,4 @@
 num = int(input('Digite um número: '))
-print('O dobro de {} é: {} \n o triplo de {} é: {} \n A raíz quadrada de {} é: {}'.format(num, num * 2, num, num * 3, num, num**2))
+print('O dobro de {} é igual a {}'.format(num, (num * 2)))
+print('O triplo de {} é igual a {}'.format(num, (num * 3)))
+print('A raíz quadrada de {} é igual a {:.2f}'.format(num, (num ** (1/2))))
