@@ -1,0 +1,7 @@
+print(f'{' Cores no terminal ':=^37}')
+print('* style 0 1 4 7')
+print('\033[0mteste\033[m, \033[1mteste\033[m, \033[4mteste\033[m, \033[7mteste\033[m')
+print('* text 30 31 32 33 34 35 36 37')
+print('\033[30mteste\033[m, \033[31mteste\033[m, \033[32mteste\033[m, \033[33mteste\033[m, \033[34mteste\033[m, \033[35mteste\033[m, \033[36mteste\033[m, \033[37mteste\033[m')
+print('* back 40 41 42 43 44 45 46 47')
+print('\033[40mteste\033[m, \033[41mteste\033[m, \033[42mteste\033[m, \033[43mteste\033[m, \033[44mteste\033[m, \033[45mteste\033[m, \033[46mteste\033[m, \033[47mteste\033[m')
