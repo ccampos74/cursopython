@@ -7,7 +7,7 @@ if s1 + s2 > s3 and s1 + s3 > s2 and s2 + s3 > s1:
         tipo = 'EQUILÁTERO'
     elif s1 == s2 != s3 or s1 == s3 != s2 or s2 == s3 !=s1:
         tipo = 'ISÓCELOS'
-    elif s1 != s2 != s3:
+    elif s1 != s2 != s3 != s1:
         tipo = 'ESCALENO'
     print('Os segmentos acima PODEM FORMAR um triângulo {}!'.format(tipo))
 else:
